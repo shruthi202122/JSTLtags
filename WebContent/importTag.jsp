@@ -9,7 +9,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<c:import var="a" url="http://www.javatpoint.com"/>
+<c:out value="${'Hello...'}"/>
+<c:import var="a" url="/demo.jsp"/>
 <c:out value="${a}"/>
 
 </body>
